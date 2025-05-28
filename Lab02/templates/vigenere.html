@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vigenere Cipher</title>
+</head>
+<body>
+    <h1>Vigenere Cipher</h1>
+
+    <h2>Encrypt</h2>
+    <form action="/vigenere/encrypt" method="post">
+        Text: <input type="text" name="inputPlainText"><br>
+        Key: <input type="text" name="inputKeyPlain"><br>
+        <input type="submit" value="Encrypt">
+    </form>
+
+    <h2>Decrypt</h2>
+    <form action="/vigenere/decrypt" method="post">
+        Text: <input type="text" name="inputCipherText"><br>
+        Key: <input type="text" name="inputKeyCipher"><br>
+        <input type="submit" value="Decrypt">
+    </form>
+</body>
+</html>
